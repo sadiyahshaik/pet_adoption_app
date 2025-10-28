@@ -27,9 +27,12 @@ class _NavigationScreenState extends State<NavigationScreen> {
   final List<Pet> _allPets = [
     Pet(id: 1, name: 'Waffles', breed: 'Corgi', age: 2, imageUrl: 'https://images.unsplash.com/photo-1558788353-f76d92427f16?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=1200', description: 'Waffles is a playful and stubby-legged friend who loves belly rubs and short walks.'),
     Pet(id: 2, name: 'Shadow', breed: 'Maine Coon', age: 3, imageUrl: 'https://th.bing.com/th/id/R.1560d9911f88920814800cfecd98a58b?rik=pQCnbEZKiZU%2flw&riu=http%3a%2f%2feskipaper.com%2fimages%2fblack-cat-1.jpg&ehk=aeqem48w6QiVGGhrE5DH3gn9WsE%2bfPkT4YI2XalfMK4%3d&risl=&pid=ImgRaw&r=0', description: 'Shadow is a gentle giant with a magnificent fluffy coat. He loves to nap and watch birds from the window.'),
-    Pet(id: 3, name: 'Thumper', breed: 'Dutch Rabbit', age: 1, imageUrl: 'https://bunnystyleguide.com/wp-content/uploads/2022/03/dutch-rabbit.jpg', description: 'Thumper is an energetic and curious rabbit. He loves hopping around and munching on fresh carrots.'),
+    Pet(id: 3, name: 'Thumper', breed: 'Dutch Rabbit', age: 1, imageUrl: 'https://th.bing.com/th/id/OIP.vP_yZD9TfiAgvmLbcOI4kAHaE8?w=175&h=150&c=6&o=7&pid=1.7&rm=3', description: 'Thumper is an energetic and curious rabbit. He loves hopping around and munching on fresh carrots.'),
     Pet(id: 4, name: 'Peanut', breed: 'Chihuahua', age: 4, imageUrl: 'https://images.unsplash.com/photo-1600804340584-c7db2eacf0bf?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=1200', description: 'Peanut is a tiny dog with a huge personality. He is fiercely loyal and loves to be carried around.'),
     Pet(id: 5, name: 'Kiwi', breed: 'Parakeet', age: 1, imageUrl: 'https://tse4.mm.bing.net/th/id/OIP.WyZix6KRE5f2yZlK3t5jkAHaEo?rs=1&pid=ImgDetMain&o=7&rm=3', description: 'Kiwi is a cheerful and chatty parakeet. He enjoys mimicking sounds and sitting on shoulders.'),
+    Pet(id: 6, name: 'Boomer',breed: 'parsian', age: 2,imageUrl:'https://th.bing.com/th/id/OIP.S05kunCJzGpHD3rTR3_ocQHaHa?w=184&h=183&c=7&r=0&o=7&pid=1.7&rm=3',description:'Boomer is a pretty fairy cat that is really energtic,often fond of its tail.'),
+    Pet(id: 7, name: 'Tuffy',breed: 'COCKER SPANIEL',age: 6,imageUrl:'https://th.bing.com/th/id/OIP.Knwf6SBKIxpcQ020qbQFpQHaFK?w=286&h=200&c=7&r=0&o=7&pid=1.7&rm=3',description:'Tuffyy is a dominated and loyal pet called "mans best friend".'),
+    Pet(id: 8, name:' Maya',breed:'SUgar glidder',age:4,imageUrl:'https://th.bing.com/th/id/OIP.ZKhOeTbQ1JyklvBJ0zM-TgHaEK?w=335&h=187&c=7&r=0&o=7&pid=1.7&rm=3',description:'Maya is a pretty cute miniature pet that is mostly called as "lill baby.')
   ];
 
   // We use a Set for favorites for efficient add/remove/contains checks
